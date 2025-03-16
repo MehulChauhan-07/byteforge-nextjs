@@ -92,3 +92,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+/* /Apply the background variable to the body */
+html {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Ensure that dark mode has its own styles */
+html.dark {
+  background-color: var(--background);
+  color: var(--foreground);
+}

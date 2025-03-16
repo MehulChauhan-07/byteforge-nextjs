@@ -13,6 +13,7 @@ import AuthModal from "@/components/auth-modal";
 import FeatureCard from "@/components/feature-card";
 import CodeDemo from "@/components/code-demo";
 import { MobileSidebar } from "@/components/sidebar";
+import { ModeToggle } from "@/components/mode_toggle";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
           </nav>
           <div className="flex items-center gap-4">
             <AuthModal />
+            <ModeToggle />
           </div>
         </div>
       </header>
@@ -59,9 +61,9 @@ export default function Home() {
                     Master Java Programming with ByteForge
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    An user-friendly learning platform designed to help you become a
-                    Java expert through interactive lessons, real-time coding,
-                    and AI assistance.
+                    An user-friendly learning platform designed to help you
+                    become a Java expert through interactive lessons, real-time
+                    coding, and AI assistance.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
